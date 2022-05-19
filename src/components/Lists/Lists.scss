@@ -1,0 +1,32 @@
+.Lists{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.list-group1 p{
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.list-group1 p span {
+    font-size: 25px;
+}
+
+.underline{
+    text-decoration:line-through;
+}
+
+.checked{
+    color: #1FF04F;
+}
+.lists__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
